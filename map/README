@@ -1,0 +1,15 @@
+Command to make the depthmaps following the arguments noted in 3_plot_slice_sphere_alpha_beta_phi_xi_eta.sh--
+
+sh 3_plot_slice_sphere_alpha_beta_phi_xi_eta.sh s12i04_beta_NC slice_Tibet.lst FWEA23_beta beta FWEA23_beta_plot
+
+
+
+Inputs -- 1. The beta infomation stored in the netCDF directory (*.nc)
+	  2. slice list (slice_Tibet.lst) contains the map extent and the depth information needed for plotting
+	
+Output -- FWEA23_beta_plot
+
+
+P.S. -- The nc files are extracted from the mesh andbecause of its large size it cannot be shared here directly. For more information, please free to contact rb18rs021@iiserkol.ac.in
+
+
