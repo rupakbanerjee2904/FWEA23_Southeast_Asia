@@ -1,0 +1,16 @@
+1_LAB_depth_RB_smoothened_MA_v2.ipynb -- Calculates the seismic Lithosphere -asthenosphere boundary depths in SE Asia from FWEA23. More details inside the code
+
+2_GMT_plot_LAB_movingavg.sh -- Uses the output from the previous code as its input and plots the seismic LAB values. 
+Input -- Lat_lon_LABDEPTH_moving_average_window_7.txt
+Output -- SE_Asia_LAB_distribution_*
+(Run at -- LAB/files)
+
+3_1D_lithospheric_mantle_thickness.ipynb -- Calculates the sub-lithospheric mantle thickness (LAB depth - Moho depth) beneath user specified node
+Inputs -- CRUST1.0-vs.r0.1.nc (/crust1.0)
+Inputs -- Lat_lon_LABDEPTH_moving_average_window_7.txt (/LAB/files)
+
+4_Calc_lithospheric_mantle_thickness.ipynb -- Calculates the lithospheric mantle thickness for the model
+
+5_GMT_plot_Litho_mantle_thick.sh -- plots the lithopsheric mantle thickness.
+(Run at -- LAB/files)
+
