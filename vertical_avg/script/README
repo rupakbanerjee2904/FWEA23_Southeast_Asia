@@ -1,0 +1,19 @@
+0_Extracting_depthwise_absoluteVs_FWEA23.ipynb -- extracts Voigt Avg Vs for particular depth from FWEA23 model.
+Input - /model/FWEA23.r0.0-n4.nc
+
+
+1_Calc_vertically_averaged_Vs.ipynb -- calualtes the vertically average using the outputs from 0_Extracting_depthwise_absoluteVs_FWEA23.ipynb
+
+
+2_plot_vertically_averaged_Vs.sh --plots the vertical average Vs from FWEA23
+(Run at - /vertical_avg/files)
+
+3a_GMT_make_files_for_histogram_SEAsia_without_KP.sh -- Removes the velocity information for the high velcoity keel beneath the Khorat plateau in SE Asia
+(Run at - /vertical_avg/files)
+
+3b_plot_histogram.ipynb -- histogram plotting of average velocity in SE Asia except the high high Vs in KP.
+
+3c_GMT_plot_SE_Asia_region_used_for_hist.sh -- plots the vertically averaged Vs for SE Asia.
+(Run at - /vertical_avg/files)
+
+
