@@ -1,0 +1,11 @@
+0a_Extracting_Voigt_Vs_at_depths_GLAD.ipynb --  extracts/calculates the Voigt Avergae Vs for certain depths from GLAD-M25 global model
+
+0b_Calc_vertically_avg_Vs_GLAD.ipynb -- calculates the vertical average Voigt Vs for certain depth interval
+
+1_plot_vertically_avg_Vs_whole_model_GLAD.sh -- vertcail average Vs plotting script 
+
+2_extracting_large_ocean_excluding_hotspots.sh -- excludes region of hotspots and extracts Vs information of ocean from the remaining parts within the blue boxes of the plot
+
+3_compiling_oceans_in_single_file.sh -- combines all the Vs information within the blue bounding boxes excluding the hotspots within those, representing the global oceanic asthenosphere
+
+4_comparison_histograms_unnormalised_and_normalised.ipynb -- histograms showing Vs distribution in Southeast Asia and global ocean asthenosphere
